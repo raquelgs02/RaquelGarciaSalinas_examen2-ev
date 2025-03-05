@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Street';
+    src: url(../FUENTE/street.otf);
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(../IMG/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Street';
+    font-size: 46px;
+    color: crimson;
+    text-align: center;
+}
+
+table {
+    background-color: black;
+    width: 600px;
+    height: 800px;
+    border: 10px outset;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+.cabecera {
+    background-image: url(../img/fondocabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+/*revisar la opacidad*/
+.cabecera span{
+    font-family: 'Street';
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.nombre {
+    font-family: 'Street';
+    color: darkorange;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+/* FORMULARIO */
+
+h2 {
+    font-family: 'Street';
+    font-size: 28px;
+    color: crimson;
+    text-align: center;
+}
+
+#formulario {
+    background-color: black;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-family: 'Street';
+    color: rgb(237, 175, 5);
+    font-size: 14px;
+}
+
+.bloque label,
+.bloque input {
+    display: block;
+}
+
+.bloque label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linea input{
+    display: inline-block;
+}
+
+/* formulario boton-radio */
+.radio-linea label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+select {
+    width: 35%;
+}
+
+textarea {
+    width: 560px;
+}
+
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street';
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
